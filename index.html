@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>yes/no</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h2 class="main-heading">Shall we go for a run?</h2>
+        <div class="heading">
+          <h1 class="main-heading-yes main-heading-yes-no">Yes</h1>
+          <h1 class="main-heading-or main-heading-yes-no">or</h1>
+          <h1 class="main-heading-no main-heading-yes-no">No</h1>
+        </div>
+        <form class="form" action="">
+          <label class="form-label-temperature" for="temperatura">
+            Air temperature</label
+          >
+          <input
+            class="form-input-temperature"
+            type="text"
+            id="temperatura"
+          /><br />
+          <input
+            class="form-input-run form-input"
+            type="checkbox"
+            id="vehicle1"
+            name="vehicle1"
+          />
+          <label class="form-label" for="vehicle1">Is it raining?</label><br />
+          <input
+            class="form-input-gym form-input"
+            type="checkbox"
+            id="vehicle2"
+            name="vehicle2"
+          />
+          <label class="form-label" for="vehicle2">Is the gym open?</label
+          ><br />
+
+          <button class="form-btn" type="submit">Shall we go?</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
