@@ -20,7 +20,7 @@ const inputCheckboxValueGym = elementInputGym.checked;
     elementNo.style.color = "red";
     elementYes.style.color = "rgb(72, 14, 72)";
 }
-  else if (inputCheckboxValueRun == true && inputCheckboxValueGym == true){
+   if (inputCheckboxValueRun == true && inputCheckboxValueGym == true){
     elementYes.style.color = "green";
     elementNo.style.color = "rgb(72, 14, 72)"
   }
